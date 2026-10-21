@@ -1,0 +1,9 @@
+services:
+  bot:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./data:/app/data            # база сохраняется между перезапусками
+      - ./content.json:/app/content.json
+      - ./media:/app/media          # материалы можно менять без пересборки

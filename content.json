@@ -1,0 +1,33 @@
+{
+  "texts": {
+    "welcome": "Привет, <b>{name}</b>! 👋\n\nЯ помогу забрать бесплатные материалы от эксперта. Выбери, что хочешь получить 👇",
+    "choose": "Выбери материал 👇",
+    "need_subscribe": "Чтобы получить материал, подпишись на наш канал — там ещё больше полезного 🙌\n\nПосле подписки нажми «Я подписался».",
+    "not_subscribed": "Похоже, подписки пока нет 🙈 Подпишись и нажми кнопку ещё раз.",
+    "after_material": "Готово! ✅ Хочешь забрать ещё один материал?",
+    "links": "Наши ресурсы — подписывайся, чтобы не пропустить новое 👇",
+    "check_error": "Не получилось проверить подписку, но материал всё равно твой 🙂"
+  },
+  "welcome_video_note": "media/welcome.mp4",
+  "materials": [
+    {
+      "id": "guide",
+      "button": "📄 PDF-гайд",
+      "type": "document",
+      "file": "media/guide.pdf",
+      "caption": "Держи гайд! Сохрани, чтобы не потерять 📌"
+    },
+    {
+      "id": "video",
+      "button": "🎬 Видео-урок",
+      "type": "link",
+      "url": "https://youtu.be/dQw4w9WgXcQ",
+      "caption": "Бесплатный видео-урок — смотри по ссылке 👇"
+    }
+  ],
+  "links": [
+    {"button": "📢 Основной канал", "url": "https://t.me/your_channel"},
+    {"button": "🤝 Нетворкинг-встречи", "url": "https://t.me/your_networking"},
+    {"button": "📸 Instagram", "url": "https://instagram.com/your_profile"}
+  ]
+}
